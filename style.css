@@ -21,6 +21,7 @@ body{
     font-size: 20px;
 }
 .logo {
+    color:#fff;
     font-size: 30px;
     letter-spacing: 1.5px;
     line-height: 80px;
@@ -88,15 +89,18 @@ body{
         transition: all 1s;
      }
      .navigation__list{
-         display: block;
-         margin: 20px 0;
+         width: 100%;
+         display: block;         
          line-height: 40px;
+         border-bottom: 1px solid rgba(0, 0, 0, .2);
      }
      .navigation__item {
-         font-size: 20px;
+        width: 100%;
+        display: block;
+        font-size: 20px;
      }
      .navigation__item:hover, .navigation__item:active {
-        background-color: transparent;
+        background-color: rgba(51, 51, 51, 0.219);
         color: orangered;
     }
     #menu:checked ~ ul {
